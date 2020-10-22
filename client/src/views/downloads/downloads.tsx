@@ -22,7 +22,7 @@ const Downloads = (_:RouteComponentProps) => {
 
     return (
         <div id="downloads" className="downloads-base">
-            <h2>Welcome to MAL personal instance</h2>
+            <h2>Downloaded anime</h2>
             <List tableHeaders={tableHeaders} listObjects={downloads}/>
         </div>
     );
